@@ -1,0 +1,13 @@
+<html>
+<body>
+
+<h2>saranya</h2>
+
+<p id="sara"></p>
+
+<script>
+document.getElementById("sara").innerHTML = "INTRO TO JAVASCRIPT";
+</script>
+
+</body>
+</html>

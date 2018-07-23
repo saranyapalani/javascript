@@ -1,0 +1,17 @@
+<html>
+<body>
+
+<h2>JavaScript Operators</h2>
+
+<p>The + operator concatenates (adds) strings.</p>
+
+<p id="sya"></p>
+
+<script>
+var txt1 = "saranya";
+var txt2 = "saran";
+document.getElementById("sya").innerHTML = txt1 + " " + txt2;
+</script>
+
+</body>
+</html>

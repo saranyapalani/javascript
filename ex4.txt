@@ -1,0 +1,12 @@
+<html>
+<body>
+<h2>The multiplication(*) Operator</h2>
+<p id="aka"></p>
+<script>
+var x = 100;
+var y = 50;
+var z = x * y;
+document.getElementById("aka").innerHTML = z;
+</script>
+</body>
+</html>
