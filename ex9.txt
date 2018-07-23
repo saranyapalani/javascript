@@ -1,0 +1,16 @@
+<html>
+<body>
+<h2>JavaScript while</h2>
+<p id="sara"></p>
+<script>
+var text = "";
+var a = 0;
+while (a < 5) 
+{
+    text += "<br>The number is " + a;
+    a++;
+}
+document.getElementById("sara").innerHTML = text;
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<html>
+<body>
+<h2>JAVASCRIPT EVENTS</h2>
+<p id="sara"></p>
+<script>
+<button onclick="document.getElementById('sara').innerHTML=Date()">time</button>
+</script>
+</body>
+</html>

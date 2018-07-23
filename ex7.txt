@@ -1,0 +1,17 @@
+<html>
+   <body>
+   
+      <script>
+      
+            var age = 20;
+         
+            if( age > 18 ){
+               document.write("<b>eligible for voting</b>");
+            }
+            
+            else{
+               document.write("<b>not eligible for voting</b>");
+            }
+      </script>
+   </body>
+</html>
