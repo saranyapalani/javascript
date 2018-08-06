@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Check for letter</title>
+<script>
+function myFunction()
+{
+var s = document.forms["sample"]["fname"].value;
+if(isNaN(s))
+{
+}
+else
+{
+alert("Please enter the Letters");
+return false;
+}
+}
+</script>
+</head>
+<body>
+<form name="sample" action="js21ii.html" onsubmit="return myFunction()" method="post">
+Name : <input type = "text" name="fname">
+<br></br>
+<input type = "submit" name ="Submit">
+</form>
+</body>
+</html>

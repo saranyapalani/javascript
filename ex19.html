@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Check non-empty</title>
+<script>
+function validateform()
+{
+var x = document.forms["sample"]["fname"].value;
+if(x == "")
+{
+alert("Name field is to be filled");
+return false;
+}
+}
+</script>
+</head>
+<body>
+<form name="sample" action = "data.html" onsubmit="return validateform()" method="post">
+username :  <input type = "text" name="fname">
+<br></br>
+<input type = "submit" name "Submit">
+</form>
+</body>
+</html>
