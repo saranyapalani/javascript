@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Form validation</title>
+</head>
+<body>
+<h1>FORM</h1>
+<form name="myForm" >
+Name:<input type="text" name="name"><br><br>
+Email: <input type="text" name="email"><br><br>
+Address:<textarea rows="5" cols="40" name="comment" form="usrform">
+</textarea>
+<br><br>sex:<input type="radio" value="male">male<input type="radio" value="female">female
+</form>
+<button onclick="valid()" >Register</button>
+<script>
+function valid(){
+var x=document.forms["myForm"]["name"].value;
+var y = document.forms["myForm"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length || x =="") {
+        alert("register successful");}
+    else{
+alert("invalid input");}
+}
+</script>
+</body>
+</html>
