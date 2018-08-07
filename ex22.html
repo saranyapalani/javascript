@@ -1,0 +1,19 @@
+<html>
+<body>
+<label for="numb">Enter a value:</label>
+<input id="word">
+<button type="button" onclick="myFunction()">Submit</button>
+<script>
+function myFunction() {
+    var s, text;
+    s = document.getElementById("word").value;
+    if (!s.match(/^[a-zA-Z0-9]+$/)) {
+        text = "Invalid input";
+    } else {
+        text = "valid input";
+    }
+    alert(text);
+}
+</script>
+</body>
+</html>
